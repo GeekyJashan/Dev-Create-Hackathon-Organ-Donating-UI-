@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    
+    <!-- navbar section -->
+    <body bgcolor=#7e87bf></body>
+    <section id="navbar">
+        <nav>
+          <div class="container">
+            <div class="nav--wrapper">
+              <div class="logo--wrapper">
+                <img height="50px" width="400px"
+                  src="https://image.shutterstock.com/image-illustration/heart-hand-giving-logo-template-260nw-1238767783.jpg"
+                  alt="logo"/>
+              </div>
+              <div class="links--wrapper">
+                <ul>
+                  <li>home</li>
+                  <li>Donate</li>
+  
+                  <li><a href='./donate.html'>about us</a></li>
+                  <button class="btn primary-btn"><a href="request.html">request organ</a></button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section class="donate">
+        <div class="container">
+          <center><img width="200px" 
+            src="https://c8.alamy.com/comp/GJ6Y2R/save-heart-or-healthy-heart-care-design-concept-GJ6Y2R.jpg"/></center>
+            <center><div class="form--wrapper">
+                <form action="./donate-organ-form" method="post">
+
+                    <div class="form-data">
+                        <label for="name" name="name">Name:</label>
+                    <input type="text" id="name">
+                    </div>
+                  
+                    <div class="form-data">
+                        <label for="organ" name="organ">choose organ:</label>
+                    <select name="organ" id="organ">
+                        <option value="NULL">select organ:</option>
+                        <option value="eyes">eyes</option>
+                        <option value="kidney">kidney</option>
+                        <option value="liver">liver</option>
+                    </select>
+                    
+                    </div>
+                    <div>
+                        <label for="blood" name="blood">blood group</label>
+                    <select name="blood" id="blood">
+                        <option value="NULL">select blood group:</option>
+                        <option value="B+">B+</option>
+                        <option value="AB">AB</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                    </div>
+                    <div>
+                        <label for="blood" name="blood">age</label>
+                        
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="" name="potential disease">disease like diabetes if any</label>
+
+                        <input type="radio" id="disease">
+                        <label for="yes">specify</label>
+                    </select>
+                    </div>
+                    <div class="form-data">
+                      <label for="contact">contact</label>
+                      <input type="number">
+                    </div>
+                    <button type="submit" class="btn submit-btn">submit</button>
+                    
+                  </center>
+                </form>
+            </div>
+        </div>
+      </section>
+      <script src=""
+</body>
+</html>
