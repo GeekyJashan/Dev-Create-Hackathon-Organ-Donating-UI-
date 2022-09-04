@@ -1,5 +1,5 @@
 # Dev-Create-Hackathon-Organ-Donating-UI
-**Theme**: Social Welfare and Healthcare <br>
+**Theme**: <br>Social Welfare and Healthcare <br>
 **Team-Name**:<br> TechPlusPlus<br>
 **Source Contributors**: <br>Jashan Sehgal,Vir Garg, Anshika Chauhan, Parteek Goyal, Apoorv Yash<br>
 **Problem Statement**:<br>As we know, in today’s world , many people in need of organs get deprived of it due to lack of awareness and lack of platforms where organs can be donated and purchased easily and ethically. There is a challenge to manage and create such interfaces and diasporas on the web which could aid in this ailing circumstances. There is a need to educate people about donation of organs, by their family on their will after their demise.<br>
